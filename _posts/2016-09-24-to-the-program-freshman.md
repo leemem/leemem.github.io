@@ -4,6 +4,8 @@ title: 写给资质平庸或非科班却想进入程序员行业的你
 ---
 # 写给资质平庸或非科班却想进入程序员行业的你
 
+---
+
 作者： [李茂琦](http://blog.limaoqi.com)
 
 日期： {{ page.date | date_to_string }}
