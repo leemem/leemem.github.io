@@ -10,8 +10,9 @@ title: Laravel Eloquent 添加自定义字段
 
 日期： {{ page.date | date_to_string }}
 
-在Laravel中使用Eloquent 时，我希望可以获取自定义的字段，这个字段在数据库中是不存在的，我可以这么做：
-在对应的模型(Modle)文件中，添加如下信息
+在Laravel中使用Eloquent 时，我希望可以获取自定义的字段，这个字段在数据库中是不存在的，我可以这么做
+
+在对应的模型(Modle)文件中，添加如下信息:
 
 ~~~php
 protected $appends = array('conf_elapse');
@@ -21,7 +22,7 @@ public function getConfElapseAttribute()
     	$curtime = date("Y-m-d H:i:s");    	
     	$elapse = strtotime($curtime)-strtotime($starttime);    	
 
-    	//TODO 这里返回你想要给这个字段返回的值
+    	//这里返回你想要给这个字段返回的值
     	return $elapse;    	
     }
 ~~~
