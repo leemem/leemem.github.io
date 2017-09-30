@@ -5,3 +5,26 @@ description: my first blog
 google_analytics: 
 show_downloads: true
 theme: jekyll-theme-tactile
+
+# Default layout
+defaults:
+  -
+    scope:
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      type: "posts"
+    values:
+      layout: "post"
+
+# Conversion
+highlighter: rouge
+
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+
+excerpt_separator: "<!--more-->"
