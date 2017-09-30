@@ -1,1 +1,7 @@
 baseurl: /leemem.github.io
+
+title: Leemem.GitHub.io
+description: my first blog
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-tactile
