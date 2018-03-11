@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 我的主页
+theme: jekyll-theme-architect
 ---
 
 ### Welcome to GitHub Pages.
