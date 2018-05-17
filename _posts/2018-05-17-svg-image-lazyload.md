@@ -13,13 +13,13 @@ title: SVG 中的图片延时加载实现
 最近在项目中遇到需要延时加载SVG中图片的实现，这里做一些记录，以供以后查阅。
 
 项目中，SVG标签包含了多张图片，如果不做延时加载处理，在页面打开时需要加载很长时间，用户体验很不好。
-以下实现参考stackoverflow上的答案[How to implement lazy load for an SVG image element?
+以下实现参考stackoverflow上的答案 [How to implement lazy load for an SVG image element?
 ](https://stackoverflow.com/questions/49040771/how-to-implement-lazy-load-for-an-svg-image-element)
 
-大致实现逻辑是，将原来svg中image标签的xlink:href的值设置在data-href中，初始svg的image属性不设置xlink:href。待svg下载完毕后，通修改data-href为xlink:href来加载每一张图片。
+大致实现逻辑是，将原来svg中image标签的xlink:href的值设置在data-href中，初始svg的image属性不设置xlink:href。待svg下载完毕后，通过修改data-href为xlink:href来加载每一张图片。
 
 >
->svg中大部分浏览器已经丢弃xlink:href的写法，直接使用href但是Safari 例外。
+>svg中大部分浏览器已经丢弃xlink:href的写法，直接使用href，但是Safari 例外。
 >
 
 初始svg shape.svg内容如下：
@@ -31,7 +31,7 @@ title: SVG 中的图片延时加载实现
   <image id="image2" class="slide" in="1.3" out="57.9" data-href="presentation/5e09c765d291f0cb6c1bffc79de2ab34e6e52fef-1526516958711/slide-1.png" width="1600" height="900" x="0" y="0" style="visibility:hidden"/>
   <image id="image3" class="slide" in="57.9" out="295.6" data-href="presentation/5e09c765d291f0cb6c1bffc79de2ab34e6e52fef-1526516958711/slide-2.png" width="1600" height="900" x="0" y="0" style="visibility:hidden" />
   <image id="image4" class="slide" in="295.6" out="392.8" data-href="presentation/5e09c765d291f0cb6c1bffc79de2ab34e6e52fef-1526516958711/slide-3.png" width="1600" height="900" x="0" y="0" style="visibility:hidden" />
-  </svg>
+</svg>
 ~~~
 
 在html中引用svg
@@ -54,7 +54,7 @@ if(images && images.length>0){
 }
 ~~~
 
-上面的代码在safari中是无效的，属性设置之后，图片加载不了。我们对代码做一些修改，已适配safari
+上面的代码在safari中是无效的，属性设置之后，图片加载不了。我们对代码做一些修改，以适配safari
 ~~~javascript
 var svgDoc = document.getElementById('slides').contentDocument
 var images = svgDoc.getElementsByTagName('image');
