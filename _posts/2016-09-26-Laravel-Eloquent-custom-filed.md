@@ -6,7 +6,7 @@ title: Laravel Eloquent 添加自定义字段
 
 ---
 
-作者： [李茂琦](http://blog.limaoqi.com)
+作者： [李茂琦](http://blogs.limaoqi.com)
 
 日期： {{ page.date | date_to_string }}
 

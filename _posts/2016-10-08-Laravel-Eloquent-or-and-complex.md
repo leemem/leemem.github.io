@@ -6,7 +6,7 @@ title: Laravel Eloquent or 和 and 复合语句
 
 ---
 
-作者： [李茂琦](http://blog.limaoqi.com)
+作者： [李茂琦](http://blogs.limaoqi.com)
 
 日期： {{ page.date | date_to_string }}
 
