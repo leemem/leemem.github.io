@@ -1,11 +1,5 @@
 # leemem.github.io
-my first blog
+博客，随便记录一点东西
 
-My father was a self-taught mandolin player. He was one of the best string instrument players in our town. He could not read music, but if he heard a tune a few times, he could play it. When he was younger, he was a member of a small country music band. They would play at local dances and on a few occasions would play for the local radio station. He often told us how he had audtioned and earned a position in a band that featured Patsy Cline as their lead singer. He told the family that after he was hired he never went back. Dad was a very religious man. He stated that there was a lot of drinking and cursing the day of his audition and he did not want to be around that type of environment.
 
-  Occasionally, Dad would get out his mandolin and  play for the family. We three children: Trisha,Monte and I, George JR.,would often sing along. Songs such as the Tennessee Waltz, Harbor Lights and around Christmas time, the well-known rendition of Silver Bells."Silver Bells,Silber Bells,its Christmas time in the city" would ring throughout the house. One of Dad's favorite hymns was "The Old Rugged Cross". We learned the words to the hymns when we were very young, and would sing it with Dad when he would play and sing. Another song that was often shared in our house was a song that accompained the Walt Disney series: Davey Crockett. Dad only had to hear the song twice before he learnd it well enought to play it."Davey,Davey Crockett, King of the Wild Frontier" was a favorite song of my family. He knew we enjoyed the song and the program and would often get out the mandolin after the program was over. I could never get over how he could play the songs so well after only hearing them after a few times. I loved to sing, but I never learned hhoow to play the mandolin. This is something I regret to this day.
-
- Dad loved to play the mandolin for his family he knew we enjoyed singing.and hearing him play. He was like that. If he could give pleasure to others, he would, especially his family.He was always there,sacrificing his time and efforts to see that his family had enough in their life.I had to mature into a man and have children of own before I realized how much he had sacrificed.
-
- I joined the United States Air Force in January of 1962.Whenever I would come home on leave, I would ask Dad to play the mandolin.Nobody played the mandolin like my father. He could touch my soul with the tones that come out of that old mandolin
 

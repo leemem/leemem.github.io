@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 我的主页
-theme: jekyll-theme-architect
+theme: jekyll-theme-time-machine
 ---
 
 <p>最新文章</p>
